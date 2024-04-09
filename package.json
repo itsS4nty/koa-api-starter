@@ -1,6 +1,6 @@
 {
 	"name": "koa-api-starter",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "",
 	"main": "index.js",
 	"bin": {
@@ -9,13 +9,17 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": ["koa", "scaffold", "api", "server", "boilerplate", "koajs"],
+	"author": "Santy AO <santy@santy-dev.com>",
 	"license": "ISC",
 	"dependencies": {
 		"args": "^5.0.3",
 		"chalk": "^5.3.0",
 		"degit": "^2.8.4",
 		"yargs-parser": "^21.1.1"
-	}
+	},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/itsS4nty/koa-api-starter.git"
+    }
 }
