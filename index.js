@@ -121,6 +121,7 @@ import('chalk').then(({ default: chalk }) => {
 				console.log(chalk.bgBlack.white('To get started:'));
 				console.log(chalk.bgBlack.cyan(`cd ${flags.d}`));
 				console.log(chalk.bgBlack.cyan('npm run start:dev'));
+                process.exit();
 			});
 	});
 });
