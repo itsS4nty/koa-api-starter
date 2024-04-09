@@ -62,7 +62,7 @@ import('chalk').then(({ default: chalk }) => {
 		process.exit(-1);
 	}
 
-	const repoName = `itsS4nty/koa-server-scaffold${flags.t ? '-ts' : ''}`;
+	const repoName = `itsS4nty/koa-api-scaffold${flags.t ? '-ts' : ''}`;
 
 	const emitter = degit(repoName, {
 		force: true,
