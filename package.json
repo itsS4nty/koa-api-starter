@@ -9,7 +9,14 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": ["koa", "scaffold", "api", "server", "boilerplate", "koajs"],
+	"keywords": [
+		"koa",
+		"scaffold",
+		"api",
+		"server",
+		"boilerplate",
+		"koajs"
+	],
 	"author": "Santy AO <santy@santy-dev.com>",
 	"license": "ISC",
 	"dependencies": {
@@ -18,8 +25,8 @@
 		"degit": "^2.8.4",
 		"yargs-parser": "^21.1.1"
 	},
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/itsS4nty/koa-api-starter.git"
-    }
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itsS4nty/koa-api-starter.git"
+	}
 }
